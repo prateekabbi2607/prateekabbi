@@ -1,0 +1,61 @@
+.main-title h2:after,
+.main-btn:hover,
+.preloader .status .spinner .dot1,
+.preloader .status .spinner .dot2,
+.vertical-nav .toggle-menu .bar,
+.about-me .about-info h3:before,
+.about-me .about-info .personal-info .about-item h4:before,
+.portfolio .portfolio-content .item .overlay .item-category span:before,
+.blog .post .post-content .post-more:hover,
+.contact .contact-form .form-group .input-border,
+.contact .contact-form .contact-btn,
+.contact .contact-form .contact-btn:focus {
+	background-color: #188ff5;
+}
+
+.main-btn {
+    color: #188ff5;
+    border: 1px solid #188ff5;
+}
+
+.vertical-nav .mini-menu > ul li a.active,
+.home .home-intro p span,
+.about-me .about-info .personal-info .about-item h4:after,
+.skills .box .chart,
+.skills .box .chart2, 
+.resume .resume-item .resume-date,
+.resume .resume-item .resume-date i,
+.blog .post .post-content .post-date,
+.blog .post .post-content .post-title h4:hover,
+.contact .contact-box .title-box,
+.contact .contact-form .form-group .form-control:focus ~ label,
+.copyright a,
+.copyright i {
+	color: #188ff5;
+}
+
+.services .service.two,
+.services .service.three,
+.services .service:hover {
+	border-bottom-color: #188ff5;
+}
+
+.blog .post .post-content .post-more {
+    color: #188ff5;
+    border: 1px solid #188ff5;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+	.services .service.two, .services .service.three {
+        background: #313f52;
+        border-bottom-color: #374454;
+        box-shadow: none;
+    }
+	
+	.services .service:hover {
+       border-bottom-color: #188ff5;
+   }
+	
+}

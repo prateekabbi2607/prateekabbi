@@ -1,0 +1,203 @@
+/* --------------------------------------
+   Global Styles
+-----------------------------------------*/
+
+body {
+    background-color: #1d2b3c;
+}
+
+.main-title h3 {
+    -webkit-text-stroke: 1px #475363;
+}
+
+.main-img {
+    /* background: url('../images/main-img2.jpg') top center no-repeat; */
+    border: 3px solid #2d3c4e;
+}
+
+.area-bg {
+    background: #2a3748;
+    border: 3px solid #2d3c4e;
+    border-left: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #313f52;
+}
+
+/* --------------------------------------
+   Loading
+-----------------------------------------*/
+.preloader {
+    background-color: #2a3748;
+}
+
+/* --------------------------------------
+   Navbar
+-----------------------------------------*/
+
+.vertical-nav {
+    background: #2a3748;
+    border: 3px solid #2d3c4e;
+    border-right: none;
+}
+
+.vertical-nav .logo {
+    background-color: #2a3748;
+    border-bottom: 1px solid #243142;
+    -webkit-text-stroke: 1px #6e7780;
+}
+
+.vertical-nav .mini-menu>ul li a {
+    border-top: 1px solid #303f52;
+    border-bottom: 1px solid #243142;
+}
+
+/* --------------------------------------
+   Services
+-----------------------------------------*/
+
+.services .service {
+    background: #313f52;
+    border: 1px solid #374454;
+}
+
+/* --------------------------------------
+   Resume
+-----------------------------------------*/
+
+.resume .resume-content {
+    background-color: #313f52;
+    border: 2px solid #3a495d;
+}
+
+.resume .resume-item {
+    background: #2a3748;
+    border: 2px solid #374354;
+}
+
+.resume .resume-item:before {
+    background: #3c495a;
+}
+
+.resume .resume-item .resume-date {
+    background: #2a3748;
+    border: 2px solid #374354;
+}
+
+/* --------------------------------------
+   Portfolio
+-----------------------------------------*/
+
+.portfolio .portfolio-content .item .overlay {
+    background-color: rgba(42, 55, 72, .75);
+}
+
+/* --------------------------------------
+   Blog
+-----------------------------------------*/
+
+.blog .post .post-content {
+    background: #313f52;
+    border: 2px solid #3a495d;
+}
+
+.blog .post .post-content .post-text p {
+    border-top: 1px solid #3a4858;
+}
+
+/* --------------------------------------
+   Contact
+-----------------------------------------*/
+
+.contact .contact-boxes {
+    background: #313f52;
+    border: 2px solid #3a495d;
+}
+
+.contact .contact-box .content-box p>i {
+    color: #485669;
+}
+
+.contact .contact-form .form-group .form-control {
+    background-color: #2a3748;
+    border-bottom: 1px solid #324052;
+}
+
+/* --------------------------------------
+   Media Queries
+-----------------------------------------*/
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .area-bg {
+        border-left: 3px solid #2d3c4e;
+    }
+
+    /*=========== Navbar ============*/
+    .vertical-nav {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+
+}
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+
+    .area-bg {
+        border-left: 3px solid #2d3c4e;
+    }
+
+    /*=========== Navbar ============*/
+    .vertical-nav {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .area-bg {
+        border: none;
+    }
+
+    /*=========== Navbar ============*/
+    .vertical-nav {
+        border: none;
+        border-bottom: 2px solid #2d3c4e;
+        overflow: hidden;
+    }
+
+    .vertical-nav .mini-menu>ul li a {
+        border: none;
+    }
+
+    /*=========== Services ============*/
+
+    .services .service.two,
+    .services .service.three {
+        background: #313f52;
+        border-bottom-color: #374454;
+        box-shadow: none;
+    }
+
+    .services .service:hover {
+        background: transparent;
+        border-bottom-color: #f9c828;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .12);
+    }
+
+    /*=========== Resume ============*/
+
+    .resume .resume-content {
+        background: transparent;
+        border: none;
+    }
+
+    .resume .resume-item:before {
+        background: #2d3c4e;
+    }
+
+
+}
